@@ -1,0 +1,15 @@
+com\assetflow\model\User.class
+com\assetflow\repository\AssetRepository.class
+com\assetflow\config\CorsConfig.class
+com\assetflow\model\Role.class
+com\assetflow\controller\TestController.class
+com\assetflow\service\UserDetailsServiceImpl.class
+com\assetflow\model\Asset.class
+com\assetflow\Application.class
+com\assetflow\controller\AuthController.class
+com\assetflow\security\JwtUtil.class
+com\assetflow\controller\AssetController.class
+com\assetflow\repository\UserRepository.class
+com\assetflow\security\JwtFilter.class
+com\assetflow\model\LoginRequest.class
+com\assetflow\security\SecurityConfig.class
