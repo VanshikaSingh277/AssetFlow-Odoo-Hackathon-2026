@@ -1,7 +1,18 @@
 # AssetFlow – Odoo Hackathon '26
 
+[![Deployed on Render](https://img.shields.io/badge/Deployed%20on-Render-46C018?logo=render&logoColor=white)](https://assetflow-v277.onrender.com)
+
 **AssetFlow** is a full‑stack asset management MVP built for the Odoo Hackathon 2026 – Virtual Round.  
 It provides a secure REST API (Spring Boot) with JWT authentication and a clean Vue 3 frontend to manage assets.
+
+---
+
+## 🌐 Live Demo
+
+The application is deployed and accessible at:  
+👉 [https://assetflow-v277.onrender.com](https://assetflow-v277.onrender.com)
+
+> Register a new user, log in, and start managing assets instantly.
 
 ---
 
