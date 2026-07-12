@@ -1,0 +1,24 @@
+# AssetFlow – Dependency List for Odoo Hackathon '26
+
+## Backend (Java / Spring Boot) – managed via pom.xml
+- Java JDK: 21+
+- Spring Boot: 3.4.0
+- Spring Security
+- JJWT (JWT) 0.12.6
+- Spring Data JPA (Hibernate)
+- H2 Database (runtime)
+- PostgreSQL Driver (optional, for later)
+- Maven 3.9+
+
+## Frontend (Vue / TypeScript) – managed via package.json
+- Node.js: v18+
+- Vue: 3.x (Composition API)
+- Vite: 8.x
+- TypeScript
+- Axios (for API calls)
+- npm
+
+## Tools & Environment
+- Git
+- VS Code / IntelliJ
+- Postman (for API testing)
