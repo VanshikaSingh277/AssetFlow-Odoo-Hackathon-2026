@@ -3,6 +3,7 @@
     <h2>📦 Assets</h2>
     <button @click="fetchAssets">Refresh</button>
     <button @click="addDummy">+ Add Dummy</button>
+    <button @click="syncOdoo" style="margin-left: 10px;">🔄 Sync from Odoo</button>
 
     <table border="1" cellpadding="8" style="margin-top: 12px; width: 100%;">
       <thead>
@@ -72,7 +73,16 @@ const addDummy = async () => {
     alert('Failed to add asset.');
   }
 };
-
+const syncOdoo = async () => {
+  try {
+    const res = await api.post('/odoo/sync');
+    alert(res.data); // Shows "Synced 2 assets from Odoo (simulated)"
+    await fetchAssets(); // Refresh the list
+  } catch (e) {
+    console.error(e);
+    alert('Sync failed. Make sure you are logged in.');
+  }
+};
 const deleteAsset = async (id: number) => {
   if (!confirm('Delete this asset?')) return;
   try {
