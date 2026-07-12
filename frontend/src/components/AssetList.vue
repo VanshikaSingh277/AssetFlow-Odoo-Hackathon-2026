@@ -39,7 +39,7 @@ import { ref, onMounted } from 'vue';
 import api from '../api/axiosInstance';
 
 interface Asset {
-  id?: number;
+  id: number;
   name: string;
   serialNumber: string;
   model: string;
